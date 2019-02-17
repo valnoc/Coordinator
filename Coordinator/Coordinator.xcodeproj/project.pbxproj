@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B321E442219EEC4003665A3 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B321E402219EEC4003665A3 /* Storage.swift */; };
+		5B321E452219EEC4003665A3 /* BaseAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B321E412219EEC4003665A3 /* BaseAppCoordinator.swift */; };
+		5B321E462219EEC4003665A3 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B321E422219EEC4003665A3 /* BaseCoordinator.swift */; };
+		5B321E472219EEC4003665A3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B321E432219EEC4003665A3 /* Coordinator.swift */; };
 		5BEFCF8C22196F830086F8C1 /* Coordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEFCF8222196F830086F8C1 /* Coordinator.framework */; };
 		5BEFCF9122196F830086F8C1 /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFCF9022196F830086F8C1 /* CoordinatorTests.swift */; };
 		5BEFCF9322196F830086F8C1 /* Coordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEFCF8522196F830086F8C1 /* Coordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BEFCFA022196F8F0086F8C1 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFCF9C22196F8F0086F8C1 /* Coordinator.swift */; };
-		5BEFCFA122196F8F0086F8C1 /* BaseAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFCF9D22196F8F0086F8C1 /* BaseAppCoordinator.swift */; };
-		5BEFCFA222196F8F0086F8C1 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFCF9E22196F8F0086F8C1 /* BaseCoordinator.swift */; };
-		5BEFCFA322196F8F0086F8C1 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFCF9F22196F8F0086F8C1 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +27,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B321E402219EEC4003665A3 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		5B321E412219EEC4003665A3 /* BaseAppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAppCoordinator.swift; sourceTree = "<group>"; };
+		5B321E422219EEC4003665A3 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		5B321E432219EEC4003665A3 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		5BEFCF8222196F830086F8C1 /* Coordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Coordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEFCF8522196F830086F8C1 /* Coordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coordinator.h; sourceTree = "<group>"; };
 		5BEFCF8622196F830086F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BEFCF8B22196F830086F8C1 /* CoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEFCF9022196F830086F8C1 /* CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
 		5BEFCF9222196F830086F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BEFCF9C22196F8F0086F8C1 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = ../../Coordinator.swift; sourceTree = "<group>"; };
-		5BEFCF9D22196F8F0086F8C1 /* BaseAppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseAppCoordinator.swift; path = ../../BaseAppCoordinator.swift; sourceTree = "<group>"; };
-		5BEFCF9E22196F8F0086F8C1 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseCoordinator.swift; path = ../../BaseCoordinator.swift; sourceTree = "<group>"; };
-		5BEFCF9F22196F8F0086F8C1 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = ../../Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B321E3F2219EEC4003665A3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5B321E402219EEC4003665A3 /* Storage.swift */,
+				5B321E412219EEC4003665A3 /* BaseAppCoordinator.swift */,
+				5B321E422219EEC4003665A3 /* BaseCoordinator.swift */,
+				5B321E432219EEC4003665A3 /* Coordinator.swift */,
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
 		5BEFCF7822196F830086F8C1 = {
 			isa = PBXGroup;
 			children = (
@@ -80,10 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				5BEFCF8522196F830086F8C1 /* Coordinator.h */,
-				5BEFCF9D22196F8F0086F8C1 /* BaseAppCoordinator.swift */,
-				5BEFCF9E22196F8F0086F8C1 /* BaseCoordinator.swift */,
-				5BEFCF9C22196F8F0086F8C1 /* Coordinator.swift */,
-				5BEFCF9F22196F8F0086F8C1 /* Storage.swift */,
+				5B321E3F2219EEC4003665A3 /* Sources */,
 				5BEFCF8622196F830086F8C1 /* Info.plist */,
 			);
 			path = Coordinator;
@@ -207,10 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BEFCFA022196F8F0086F8C1 /* Coordinator.swift in Sources */,
-				5BEFCFA322196F8F0086F8C1 /* Storage.swift in Sources */,
-				5BEFCFA222196F8F0086F8C1 /* BaseCoordinator.swift in Sources */,
-				5BEFCFA122196F8F0086F8C1 /* BaseAppCoordinator.swift in Sources */,
+				5B321E472219EEC4003665A3 /* Coordinator.swift in Sources */,
+				5B321E442219EEC4003665A3 /* Storage.swift in Sources */,
+				5B321E462219EEC4003665A3 /* BaseCoordinator.swift in Sources */,
+				5B321E452219EEC4003665A3 /* BaseAppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
