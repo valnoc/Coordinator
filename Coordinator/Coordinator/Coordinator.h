@@ -1,11 +1,3 @@
-//
-//  Coordinator.h
-//  Coordinator
-//
-//  Created by Valeriy Bezuglyy on 17/02/2019.
-//  Copyright © 2019 Valeriy Bezuglyy. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 //! Project version number for Coordinator.
