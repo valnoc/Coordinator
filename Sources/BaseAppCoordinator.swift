@@ -6,8 +6,8 @@ open class BaseAppCoordinator: BaseCoordinator<UIWindow> {
                 coordinatorFactory: CoordinatorFactory) {
         super.init(vcFactory: vcFactory,
                    coordinatorFactory: coordinatorFactory,
-                   navigator: UIWindow(frame: UIScreen.main.bounds))
+                   router: UIWindow(frame: UIScreen.main.bounds))
         
-        navigator.makeKeyAndVisible()
+        router.makeKeyAndVisible()
     }
 }
