@@ -1,15 +1,15 @@
 import UIKit
 
-open class BaseCoordinator<RouterType>: Coordinator, CoordinatorWithStorage {
-    public var vcFactory: ViewControllerFactory
-    public var coordinatorFactory: CoordinatorFactory
-    public var router: RouterType
+open class BaseCoordinator<TVCFactory, TCoordinatorFactory, TRouter>: Coordinator, CoordinatorWithStorage {
+    public var vcFactory: TVCFactory
+    public var coordinatorFactory: TCoordinatorFactory
+    public var router: TRouter
     
     public var storage: Storage
     
-    public init(vcFactory: ViewControllerFactory,
-                coordinatorFactory: CoordinatorFactory,
-                router: RouterType) {
+    public init(vcFactory: TVCFactory,
+                coordinatorFactory: TCoordinatorFactory,
+                router: TRouter) {
         self.vcFactory = vcFactory
         self.coordinatorFactory = coordinatorFactory
         self.router = router
