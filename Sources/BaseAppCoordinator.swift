@@ -1,15 +1,11 @@
 import UIKit
 
-open class BaseAppCoordinator<TCoordinatorFactory>: BaseCoordinator<AppVCFactory, TCoordinatorFactory, UIWindow> {
+open class BaseAppCoordinator<TCoordinatorFactory>: BaseCoordinator<Void, TCoordinatorFactory, UIWindow> {
     
     public init(coordinatorFactory: TCoordinatorFactory) {
-        super.init(vcFactory: AppVCFactory(),
+        super.init(vcFactory: (),
                    coordinatorFactory: coordinatorFactory,
                    router: UIWindow(frame: UIScreen.main.bounds))
         router.makeKeyAndVisible()
     }
-}
-
-public class AppVCFactory {
-    init() { }
 }
