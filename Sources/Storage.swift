@@ -15,7 +15,15 @@ public class Storage {
         guard let index = coordinators.firstIndex(where: { $0 === coordinator }) else { return }
         coordinators.remove(at: index)
     }
-    
+
+    public func all() -> [Coordinator] {
+        return coordinators
+    }
+
+    public func isEmpty() -> Bool {
+        return coordinators.isEmpty
+    }
+
     public func searchCoordinator<T>(_ type: T.Type) -> T?  where T: Coordinator {
         return search(type, in: self)
     }
