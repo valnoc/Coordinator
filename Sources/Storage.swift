@@ -1,6 +1,6 @@
 import Foundation
 
-protocol CoordinatorWithStorage {
+public protocol CoordinatorWithStorage {
     var storage: Storage {get set}
 }
 
@@ -24,11 +24,11 @@ public class Storage {
         return coordinators.isEmpty
     }
 
-    public func searchCoordinator<T>(_ type: T.Type) -> T?  where T: Coordinator {
+    public func searchCoordinator<T>(_ type: T.Type) -> T? {
         return search(type, in: self)
     }
     
-    fileprivate func search<T>(_ type: T.Type, in storage: Storage) -> T? where T: Coordinator {
+    fileprivate func search<T>(_ type: T.Type, in storage: Storage) -> T?  {
         //search in children
         for coord in storage.coordinators {
             if let coordT = coord as? T {
