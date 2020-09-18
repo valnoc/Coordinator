@@ -1,5 +1,5 @@
 # Coordinator
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Cocoapods release](https://img.shields.io/cocoapods/v/Coordinator.svg)]() [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Implementation of Mediator pattern to control screens flow.
 
@@ -10,6 +10,11 @@ Requires Swift 5
 Add this line into your Cartfile and run `carthage update`
 ```ruby
 github "valnoc/Coordinator" ~> 1.0
+```
+#### Cocoapods
+Add this line into your Podfile under a test target and run `pod update`
+```ruby
+pod 'Coordinator', '~> 1.0'
 ```
 
 ## Usage
