@@ -4,7 +4,7 @@
 Implementation of Mediator pattern to control screens flow.
 
 ## Installation
-Requires Swift 4.2
+Requires Swift 5
 
 #### Carthage
 Add this line into your Cartfile and run `carthage update`
