@@ -14,7 +14,7 @@ github "valnoc/Coordinator" ~> 1.0
 #### Cocoapods
 Add this line into your Podfile under a test target and run `pod update`
 ```ruby
-pod 'Coordinator', '~> 1.0'
+pod 'VBCoordinator', '~> 1.0'
 ```
 
 ## Usage
