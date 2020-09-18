@@ -1,5 +1,5 @@
 # Coordinator
-[![Cocoapods release](https://img.shields.io/cocoapods/v/Coordinator.svg)]() [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Cocoapods release](https://img.shields.io/cocoapods/v/VBCoordinator.svg)]() [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Implementation of Mediator pattern to control screens flow.
 
