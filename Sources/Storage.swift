@@ -29,22 +29,19 @@ public class Storage {
     }
     
     fileprivate func search<T>(_ type: T.Type, in storage: Storage) -> T?  {
-        //search in children
         for coord in storage.coordinators {
             if let coordT = coord as? T {
-                return coordT // early exit
+                return coordT
             }
         }
         
-        //search in further level
         for coord in storage.coordinators {
             if let coordWithStorage = coord as? CoordinatorWithStorage,
                 let coordT = search(type, in: coordWithStorage.storage) {
-                return coordT // early exit
+                return coordT
             }
         }
         
-        // not found
         return nil
     }
 }
