@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "VBCoordinator"
-    s.version          = "1.3.0"
+    s.version          = "1.3.1"
     s.summary          = "Implementation of Mediator pattern to control screens flow."
     s.description      = <<-DESC
     Implementation of Mediator pattern to control screens flow.

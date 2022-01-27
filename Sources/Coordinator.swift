@@ -1,4 +1,4 @@
 import UIKit
 
-public protocol Coordinator: class { }
-public protocol CoordinatorOutput: class { }
+public protocol Coordinator: AnyObject { }
+public protocol CoordinatorOutput: AnyObject { }
