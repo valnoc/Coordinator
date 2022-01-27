@@ -20,6 +20,10 @@ public class Storage {
         return coordinators
     }
 
+    public func contains(_ coordinator: Coordinator) -> Bool {
+        return coordinators.contains { $0 === coordinator }
+    }
+
     public func isEmpty() -> Bool {
         return coordinators.isEmpty
     }
