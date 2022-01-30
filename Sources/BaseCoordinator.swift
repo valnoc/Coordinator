@@ -7,6 +7,10 @@ open class BaseCoordinator<TVCFactory, TCoordinatorFactory, TRouter>: Coordinato
     
     public var storage: Storage
     
+    /// - Parameters:
+    ///     - vcFactory: a factory to create screens
+    ///     - coordinatorFactory: a factory to create child coordinators
+    ///     - router: a router for changing screens. Usually, UINavigationController, UITabBarController, Window or any other container
     public init(vcFactory: TVCFactory,
                 coordinatorFactory: TCoordinatorFactory,
                 router: TRouter) {
