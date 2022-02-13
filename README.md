@@ -1,10 +1,17 @@
 # Coordinator
+![License](https://img.shields.io/github/license/valnoc/Coordinator)
+
+![SPM compatible](https://img.shields.io/badge/SPM-compatible-green.svg?style=flat) ![SPM version](https://img.shields.io/github/v/tag/valnoc/Coordinator?sort=semver)
+
 [![Cocoapods release](https://img.shields.io/cocoapods/v/VBCoordinator.svg)]() [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Implementation of Mediator pattern to control screens flow.
 
 ## Installation
 Requires Swift 5
+
+#### SPM
+
 
 #### Carthage
 Add this line into your Cartfile and run `carthage update`
