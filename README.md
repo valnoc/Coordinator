@@ -11,17 +11,21 @@ Implementation of Mediator pattern to control screens flow.
 Requires Swift 5
 
 #### SPM
+Add this line into your Package file
+```swift
+.package(url: "https://github.com/valnoc/Coordinator", from: "1.0"),
+```
 
+#### Cocoapods
+Add this line into your Podfile under a test target and run `pod update`
+```ruby
+pod 'VBCoordinator', '~> 1.0'
+```
 
 #### Carthage
 Add this line into your Cartfile and run `carthage update`
 ```ruby
 github "valnoc/Coordinator" ~> 1.0
-```
-#### Cocoapods
-Add this line into your Podfile under a test target and run `pod update`
-```ruby
-pod 'VBCoordinator', '~> 1.0'
 ```
 
 ## Usage
