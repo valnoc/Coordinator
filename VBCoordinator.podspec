@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "VBCoordinator"
-    s.version          = "1.3.2"
+    s.version          = "1.4.0"
     s.summary          = "Implementation of Mediator pattern to control screens flow."
     s.description      = <<-DESC
     Implementation of Mediator pattern to control screens flow.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => "https://github.com/valnoc/Coordinator.git", :tag => "#{s.version}" }
   
     s.swift_version = '5.2'
-    s.platform     = :ios, '9.0'
+    s.platform     = :ios, '10.0'
     s.requires_arc = true
   
     s.source_files = 'Sources/**/*'
